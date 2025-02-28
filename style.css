@@ -37,11 +37,36 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.project img {
+    width: 100%;
+}
+
 a {
-    color: #002aff;
+    color: #ffa200;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+button {
+    background-color: #ffa200;
+    border: none;
+    color: #fff;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 3px solid #ffa200;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #fff; 
+    color: #ffa200; 
+    border: 3px solid #ffa200;
 }
