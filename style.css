@@ -14,10 +14,14 @@ body {
 }
 
 header {
-    background: url('/header-img.png') no-repeat center center/cover;
+    background: url(/header-img.png);
     color: white;
     text-align: center;
     padding: 100px 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header h1 {
