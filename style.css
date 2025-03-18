@@ -86,3 +86,11 @@ button:hover {
     color: #ffa200; 
     border: 3px solid #ffa200;
 }
+
+.stats {
+    font-size: 18px; margin: 10px;
+}
+
+.statistic {
+    padding: 5px;
+}
